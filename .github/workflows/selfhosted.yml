@@ -35,7 +35,7 @@ on:
         required: false
       LOCAL_MANIFEST:
         description: "Personal local manifest [repository or raw]:"
-        required: true
+        required: false
         default: 'https://github.com/zackyape/local_manifests'
       LOCAL_MANIFEST_BRANCH:
         description: "Personal local manifest's branch:"
